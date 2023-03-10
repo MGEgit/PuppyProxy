@@ -8,7 +8,7 @@
 		<Authors>Joel Christner</Authors>
 		<Company>Joel Christner</Company>
 		<Description>Lightweight HTTP and HTTPS proxy written in C#</Description>
-		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		
 		<PackageProjectUrl>https://github.com/jchristn/puppyproxy</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/jchristn/puppyproxy</RepositoryUrl>
 		<RepositoryType>Github</RepositoryType>
@@ -23,19 +23,6 @@
 		<PackageReference Include="RestWrapper" Version="2.1.2" />
 		<PackageReference Include="SyslogLogging" Version="1.2.1" />
 		<PackageReference Include="Watson" Version="3.0.4" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="..\LICENSE.md">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
-		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="LICENSE.md">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	</ItemGroup>
 
 </Project>
