@@ -194,7 +194,7 @@ namespace PuppyProxy
         /// <summary>
         /// Enable or disable SSL.
         /// </summary>
-        public bool Ssl { get; set; } = false;
+        public bool Ssl { get; set; } = true;
 
         /// <summary>
         /// Maximum number of threads to support.
