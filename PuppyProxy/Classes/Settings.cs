@@ -109,7 +109,7 @@ namespace PuppyProxy
         /// <summary>
         /// Enable or disable logging to the console.
         /// </summary>
-        public bool ConsoleEnable { get; set; } = false;
+        public bool ConsoleEnable { get; set; } = true;
 
         /// <summary>
         /// Minimum severity required before sending a log message (0 through 7).
