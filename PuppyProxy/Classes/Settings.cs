@@ -104,12 +104,12 @@ namespace PuppyProxy
         /// <summary>
         /// Enable or disable logging to syslog.
         /// </summary>
-        public bool SyslogEnable { get; set; } = true;
+        public bool SyslogEnable { get; set; } = false;
 
         /// <summary>
         /// Enable or disable logging to the console.
         /// </summary>
-        public bool ConsoleEnable { get; set; } = true;
+        public bool ConsoleEnable { get; set; } = false;
 
         /// <summary>
         /// Minimum severity required before sending a log message (0 through 7).
