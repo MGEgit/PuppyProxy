@@ -9,7 +9,7 @@ EXPOSE 8000
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["PuppyProxy/PuppyProxy.csproj", "HttpProxy/"]
+COPY ["PuppyProxy/PuppyProxy.csproj", "PuppyProxy/"]
 RUN dotnet restore "PuppyProxy/PuppyProxy.csproj"
 COPY . .
 WORKDIR "/src/PuppyProxy"
